@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp">
+    <ImageView
+        android:id="@+id/imaddvoid"
+        android:layout_width="@dimen/_54sdp"
+        android:layout_height="@dimen/_54sdp"
+        android:layout_marginLeft="@dimen/_20ssp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20ssp"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#000"
+            android:textSize="@dimen/_24ssp"
+            android:id="@+id/tvtenbaihat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên bài hát" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000"
+                android:textSize="@dimen/_18ssp"
+                android:id="@+id/tvsogiay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2:20" />
+
+            <TextView
+                android:textColor="#000"
+                android:textSize="@dimen/_18ssp"
+                android:id="@+id/tvkb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:text="20.5KB" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RadioButton
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_weight="1"
+         />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|end" />
+</LinearLayout>
+
+
